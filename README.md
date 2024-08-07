@@ -1,4 +1,4 @@
-### Top Up From Warehouse ###
+### Top_Up_From Warehouse.ipynb ###
 This script distributes stocks to retail shops based on demand and sales. Another file called min max is fed into the model. This file has the minimum and maximum inventory levels of all items for all the 32 retail shops. 
 Other model inputs include instock status and gross profit margin
 
