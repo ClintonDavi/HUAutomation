@@ -9,4 +9,4 @@ Other model inputs include instock status and gross profit margin
  - Distribution occurs in a structured order - shop with zero instock is supplied first followed by shop with the highest deficit i.e shop that has the capacity to hold the most (calculated as maximum inventory - instock). A for loop distributes the products untill all shops are filled to their maximum levels.
    
 **Output**
-An excel file that clearly shows what units to move and where to move them.
+- An excel file that clearly shows what units to move and where to move them.
