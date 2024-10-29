@@ -5,7 +5,7 @@ Other model inputs include instock status and gross profit margin
 **Logic**
  - Create two tables, move from and move to tables.
  - Move from tables is simply positive inventory of warehouse items. Move to tables is positive inventory of products in the shops.
- - If an item is understocked in the shops, model will recommend a transfer of X units of the to the shop from the warehouse.
+ - If an item is understocked in the shops, model will recommend a transfer of X units of the item to the shop from the warehouse.
  - Distribution occurs in a structured order - shop with zero instock is supplied first followed by shop with the highest deficit i.e shop that has the capacity to hold the most (calculated as maximum inventory - instock). A for loop distributes the products untill all shops are filled to their maximum levels.
    
 **Output**
